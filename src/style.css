@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+.stop-scrolling {
+  height: 100%;
+
+  overflow: hidden;
+}
