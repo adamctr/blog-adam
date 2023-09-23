@@ -42,10 +42,13 @@ const Navbar = () => {
       </Link>
 
       {isMobile || displayMenuBurger ? (
-        <div class={`space-y-2 cursor-pointer z-30 `} onClick={toggleBurger}>
-          <span class="block w-8 h-1 bg-black"></span>
-          <span class="block w-8 h-1 bg-black"></span>
-          <span class="block w-8 h-1 bg-black"></span>
+        <div
+          className={`space-y-2 cursor-pointer z-30 `}
+          onClick={toggleBurger}
+        >
+          <span className="block w-8 h-1 bg-black"></span>
+          <span className="block w-8 h-1 bg-black"></span>
+          <span className="block w-8 h-1 bg-black"></span>
         </div>
       ) : (
         <div className="flex gap-10">
